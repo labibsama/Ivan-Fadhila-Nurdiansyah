@@ -1,0 +1,171 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            width: 200px;
+            height: 100vh;
+            background-color: #ddd;
+            float: left;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        *{padding: 0; margin: 0;}
+
+        .navbar {
+            float: left;
+            background: gray;
+            width:100%
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+        }
+
+        .navbar li a{
+            color: black;
+            text-decoration: ;
+            padding: 20px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .navbar li a:hover {
+            background: #fff;
+            color: 000000;
+        }
+
+        .center ul {
+            width: -moz-fit-content;
+            width: -webkit-fit-content;
+            width: fit-content;
+            margin: auto;
+        }
+
+        img {
+ 
+            width: 100px;
+             
+            height: 100px;
+             
+            }
+
+#kontak {
+    margin-top: 20px;
+}
+
+.info-kontak {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-kontak div {
+    width: 30%;
+}
+
+.form-kontak {
+    margin-top: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover
+ }
+
+ .product img {
+    width: 20%;
+    height: auto;
+}
+ 
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+</style>
